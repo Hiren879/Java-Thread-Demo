@@ -1,3 +1,5 @@
+package com.thread.basics;
+
 public class RunnableThread implements  Runnable {
     @Override
     public void run() {

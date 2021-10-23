@@ -1,3 +1,5 @@
+package com.thread.basics;
+
 public class MyThread extends Thread {
 
     @Override

@@ -1,3 +1,5 @@
+package com.thread.basics;
+
 public class ThreadBasic {
 
     public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class ThreadBasic {
         // thread.start(); // It will throw java.lang.IllegalThreadStateException
 
         // 2. Using runnable
-        Thread runnableThread = new Thread(new RunnableThread() {
+        Thread runnableThread = new Thread(new Runnable() {
             @Override
             public void run() {
                 System.out.println("runnable thread is running.");

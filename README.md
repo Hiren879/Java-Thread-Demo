@@ -9,7 +9,9 @@ Essential thread concepts
     1. extend Thread class
     2. implement runnable
 5. Thread can be started using **start()** method. And it will run the logic written in **run()** method.
-
+6. Thread shares the same heap memory so if you will change the instance variable of an object, the change will be visible to all other threads working with that object.
+7. Race Condition : When two or more threads shares the same resource and tries to access them.
+8. Race Condition Solution : Write a synchronized method/block.
 ## Join
 Why to use Join ?
 - To ensure the sequence of the thread execution

@@ -1,6 +1,6 @@
 package com.thread.join;
 
-public class ThreadJoinExample {
+public class ThreadJoin {
 
     // This program will guarantee that there will be total 3 threads and those will print 1 to 20 in sequence.
     // 1. Main thread

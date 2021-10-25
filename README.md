@@ -12,6 +12,7 @@ Essential thread concepts
 6. Thread shares the same heap memory so if you will change the instance variable of an object, the change will be visible to all other threads working with that object.
 7. Race Condition : When two or more threads shares the same resource and tries to access them.
 8. Race Condition Solution : Write a synchronized method/block.
+9. wait(), notify() & notifyAll() can only be called from synchronized block.
 ## Join
 Why to use Join ?
 - To ensure the sequence of the thread execution
